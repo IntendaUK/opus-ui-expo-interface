@@ -16,8 +16,8 @@
 	},
 	"keywords": [
 		"opus-ui",
-		"component",
-		"library",
+		"expo",
+		"interface",
 		"opus"
 	],
 	"peerDependencies": {
