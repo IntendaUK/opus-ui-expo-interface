@@ -2,7 +2,7 @@
 import { useEffect } from 'react';
 
 //System
-import { registerFlow } from 'opus-ui';
+import { registerFlow } from '@intenda/opus-ui';
 
 //Styles
 import './styles.css';
