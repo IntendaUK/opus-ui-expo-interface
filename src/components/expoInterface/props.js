@@ -1,5 +1,7 @@
 /* eslint-disable max-len */
 
+import { spliceWhere } from '@intenda/opus-ui';
+
 const props = {
 	msgToExpo: {
 		type: 'object',
@@ -15,7 +17,7 @@ const props = {
 				newValue = [ newValue];
 
 			newValue.forEach(({ event, value }) => {
-				oldValue.spliceWhere(o => o.event === event && o.value === value);
+				spliceWhere(oldValue, o => o.event === event && o.value === value);
 				oldValue.push({
 					event,
 					value
